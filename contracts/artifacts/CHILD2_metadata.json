@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "character",
+				"name": "child",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -20,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getHusbandChar",
+				"name": "dad",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -28,38 +28,12 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getWallet",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "wallet",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "who",
+				"name": "mom",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -84,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1_visibility.sol": "CHILD2"
+			"contracts/999_note.sol": "CHILD2"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -98,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1_visibility.sol": {
-			"keccak256": "0x7cf4c6280a4eb8cffc29ba0d4ee29aae6778d7b0b8a84e7d7e33428a1359e7d5",
+		"contracts/999_note.sol": {
+			"keccak256": "0xa5bcb5f705431b91cd0a937d029636d79ebddcea4241bf5470c8d8344634f941",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://12386d85050ec43a2e735539081e5bd71702ba220b1b95380fe45c7a3d8eb13e",
-				"dweb:/ipfs/QmSzkPQ9xDGi2q2BuvfkyJa3j896SUFwWaywY4TrYq79R4"
+				"bzz-raw://a0a38e8e2c0c1505395e772aa5f87c6f3c3ec9dbc8749ee9ab6f7b8082290932",
+				"dweb:/ipfs/QmYvmSVEFq6UcKzexA8xeBduzaZMTv3u1dfywKnvFtnuF4"
 			]
 		}
 	},

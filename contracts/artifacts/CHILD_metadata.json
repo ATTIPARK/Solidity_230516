@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "externalF",
+				"name": "child",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -20,59 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "publicF",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "testInternal",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "testInternalF",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "testPrivateF",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "testPublic",
+				"name": "dad",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -97,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1_visibility.sol": "CHILD"
+			"contracts/999_note.sol": "CHILD"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -111,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1_visibility.sol": {
-			"keccak256": "0x5208637c86e17ce158ef1a5e799dbd6a8eb23cbad637434052d5999d2952788b",
+		"contracts/999_note.sol": {
+			"keccak256": "0xeeb4c36e83d8e1257077a5f3bf6961a9ca26dc7fb19d5bda52b668e3481791da",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://666f1da3d7d43b360b0b7dc041be5231f098940f419a55045b9218fe20ab0f56",
-				"dweb:/ipfs/QmTQxxshjg4mcVakNuKHowTc8PijLdEne5cHPQTuUQVL3Q"
+				"bzz-raw://6ce6e453a4b6d14f086b8da2736f581efe84a2ec4ffd9a2f0fedf6ea258effdb",
+				"dweb:/ipfs/QmNbmuC5mYSrrytD3g2rebc2BUk8epE1DALgxAqjHCAbw8"
 			]
 		}
 	},

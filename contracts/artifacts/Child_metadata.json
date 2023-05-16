@@ -6,29 +6,107 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "externalF",
+				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "_a",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
-				"name": "dadChangeWallet",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "wallet",
+				"name": "publicF",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testInternal2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testInternalF",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testPrivateF",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testPrivateF_1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testPrivateF_2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testPublic",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -45,7 +123,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/2_visibility.sol": "Child"
+			"contracts/1_visibility.sol": "Child"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +137,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/2_visibility.sol": {
-			"keccak256": "0xa4beface1313c447c36dba90ad9c9fac6dbfdf92419928b23cee9dfad7c591ba",
+		"contracts/1_visibility.sol": {
+			"keccak256": "0x80258607cb43b9da16b049ce740955a2e6140ae0ad0f798b8c5c91db6a572ed9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8a5b2e165485fccb2a7aae30592d791fc73d0b5d9773ca237824b7c37204cf9a",
-				"dweb:/ipfs/QmaGUqdMycjpHz9sPPGC9tQpTydtXShdUrFzN26vzy6QGz"
+				"bzz-raw://8ea639ca18dae41070f307ae947f423082491ef26590075d4f72e5c89c88d7fc",
+				"dweb:/ipfs/QmR4UCxUKJTQ8FWKKjb7YL7NVRrJK1DtMtU3WWyp1JTJnB"
 			]
 		}
 	},

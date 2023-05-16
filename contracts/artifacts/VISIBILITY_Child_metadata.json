@@ -33,6 +33,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "testInternal2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "testInternalF",
 				"outputs": [
 					{
@@ -47,6 +60,45 @@
 			{
 				"inputs": [],
 				"name": "testPrivateF",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testPrivateF_1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testPrivateF_2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testPublic",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -86,11 +138,11 @@
 	},
 	"sources": {
 		"contracts/1_visibility.sol": {
-			"keccak256": "0x9461576f08bf445e1f8bdf93db2fb6501a79119c463073aed73203c809e8132b",
+			"keccak256": "0x04c637ba469b30279e3724dc9d38bac178039b9d552429aaef869a65f3671a24",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2e7a2e3073697058644b649229860058e38a0c822570c511be528c307e20f212",
-				"dweb:/ipfs/QmWHWgeNSghnghWefn8KxDurfbzisq9AF79jeKKn3x37VV"
+				"bzz-raw://f35902b672af2ad63ca2c32e1177d5582ba2edb2fd4ed8191b16f75f26f89a76",
+				"dweb:/ipfs/QmaREuw4bZxjw6qjEmHpYBvc6rEdNRGz9pN87C3T6F1mdR"
 			]
 		}
 	},

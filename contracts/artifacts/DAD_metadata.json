@@ -7,15 +7,15 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "wallet",
+				"name": "dad",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/2_visibility.sol": "DAD"
+			"contracts/999_note.sol": "DAD"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -46,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/2_visibility.sol": {
-			"keccak256": "0xa4beface1313c447c36dba90ad9c9fac6dbfdf92419928b23cee9dfad7c591ba",
+		"contracts/999_note.sol": {
+			"keccak256": "0xeeb4c36e83d8e1257077a5f3bf6961a9ca26dc7fb19d5bda52b668e3481791da",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8a5b2e165485fccb2a7aae30592d791fc73d0b5d9773ca237824b7c37204cf9a",
-				"dweb:/ipfs/QmaGUqdMycjpHz9sPPGC9tQpTydtXShdUrFzN26vzy6QGz"
+				"bzz-raw://6ce6e453a4b6d14f086b8da2736f581efe84a2ec4ffd9a2f0fedf6ea258effdb",
+				"dweb:/ipfs/QmNbmuC5mYSrrytD3g2rebc2BUk8epE1DALgxAqjHCAbw8"
 			]
 		}
 	},

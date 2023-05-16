@@ -2,7 +2,8 @@
 pragma solidity ^0.8.18;
 
 contract VISIBILITY {
-    function privateF() private pure returns (string memory) {
+
+    function privateF() private pure returns(string memory) {
         return "private";
     }
 
@@ -31,8 +32,17 @@ contract VISIBILITY {
     }
 }
 
-contract CHILD is VISIBILITY {
-    function testInternal() public pure returns(string memory) {
+contract VISIBILITY_Child is VISIBILITY {
+
+    function testPrivateF_1() public pure returns(string memory) {
+        return testPrivateF();
+    }
+
+    function testPrivateF_2() public pure returns(string memory) {
+        return testPrivateF2();
+    }
+
+    function testInternal2() public pure returns(string memory) {
         return internalF();
     }
 
@@ -59,7 +69,7 @@ contract Parent {
     }
 }
 
-contract Child is Parent {
+contract ChilD is Parent {
     function multiply(uint a, uint b) public pure returns(uint) {
         return a*b;
     }
