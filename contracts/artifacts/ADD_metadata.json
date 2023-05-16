@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/3_note.sol": "ADD"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3_note.sol": {
+			"keccak256": "0xa8973dfa123f6c44c75036340302be8635f1d9e7b0e26281eac180f516381324",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://17b6c344ed128273ba64b1bb245ebae06858ed96093c0d8d83b4b59c75e34b96",
+				"dweb:/ipfs/QmVM1BD3EnrA3imetpv1QKikohVtXfEQZLN9wBT8TER7eT"
+			]
+		}
+	},
+	"version": 1
+}

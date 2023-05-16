@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_visibility.sol": "Parent"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1_visibility.sol": {
+			"keccak256": "0x5208637c86e17ce158ef1a5e799dbd6a8eb23cbad637434052d5999d2952788b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://666f1da3d7d43b360b0b7dc041be5231f098940f419a55045b9218fe20ab0f56",
+				"dweb:/ipfs/QmTQxxshjg4mcVakNuKHowTc8PijLdEne5cHPQTuUQVL3Q"
+			]
+		}
+	},
+	"version": 1
+}

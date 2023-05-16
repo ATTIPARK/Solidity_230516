@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "wallet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/2_visibility.sol": "DAD"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/2_visibility.sol": {
+			"keccak256": "0xa4beface1313c447c36dba90ad9c9fac6dbfdf92419928b23cee9dfad7c591ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8a5b2e165485fccb2a7aae30592d791fc73d0b5d9773ca237824b7c37204cf9a",
+				"dweb:/ipfs/QmaGUqdMycjpHz9sPPGC9tQpTydtXShdUrFzN26vzy6QGz"
+			]
+		}
+	},
+	"version": 1
+}
